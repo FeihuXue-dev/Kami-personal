@@ -19,6 +19,7 @@
 | PDF 导航 | 依赖渲染器 | `add_outline.py` 保留/回填书签；≥6 页长文要求可见目录页 |
 | 图表来源 | 允许手绘/生成 | 既有架构、模型、设备、标准图必须取自原始文献，禁止重画或生成 |
 | PDF 封面 | 文本封面 | 接入 `mono-color` 技能生成单/双色封面（文本仍由 HTML 叠加） |
+| 本地交付规则 | 分散在项目 AGENTS.md | `references/delivery-rules.md`：同内容同步、PDF 构建禁替代方案、公式不截断、概念解释、架构图溯源 |
 | 写作规范 | 无逐符号要求 | `writing.md` §9「公式逐符号可解码」及发布检查项 |
 
 ### 新增文件
@@ -34,6 +35,7 @@
 | `scripts/check_symbols.py` | 逐符号图例门禁 |
 | `scripts/check_formula_fit.py` | 公式越栏门禁 |
 | `scripts/add_outline.py` | PDF 书签保留/回填 |
+| `references/delivery-rules.md` | 本地强制交付规则汇总（同内容同步、PDF 流水线、公式不截断、概念解释、架构图溯源） |
 
 ### 修改文件
 

@@ -290,6 +290,7 @@ Pick the tier that matches the task. Default to the lowest tier that covers the 
 | **Troubleshoot** | Rendering bug, font issue, page overflow. | `production.md` (+ design spec if CSS is the cause) |
 | **Anti-patterns** | Reviewing AI-generated drafts before shipping. | `anti-patterns.md` (nine-category checklist) |
 | **Diagram** | Embedding SVG in a doc, or maintaining a repo-owned diagram (trio: HTML + PNG + prompt.md). | `diagrams.md` (has its own token map); add `references/mermaid.md` when the source is Mermaid text, and `references/production.md` Part 4 when a figure renders wrong in the PDF |
+| **Delivery rules** | Any deliverable that ships, especially PDF. Local mandatory constraints. | `references/delivery-rules.md` |
 
 
 ## Step 4 · Fill content into the template
@@ -403,6 +404,8 @@ Do not ask the user which format to export. Decide from context:
 PDF always ships for document templates. Landing pages ship as a ready-to-serve static HTML file. PPTX follows slides. PNG follows sharing context.
 
 ## Step 5 · Build & verify
+
+Before building any PDF, read `references/delivery-rules.md`: it carries the local mandatory rules for pipeline choice, same-content sync, formula fit, concept explanation, and sourced architecture figures.
 
 ```bash
 # Required whenever the document contains code blocks:
