@@ -1,4 +1,4 @@
-# Kami · persional
+# Kami · personal
 
 个人维护的 [Kami](https://github.com/tw93/Kami) 排版 skill。仓库根目录就是 skill 根目录，可直接安装到 `~/.agents/skills/kami`。
 
@@ -57,10 +57,10 @@
 ```bash
 # 方式一：直接 clone（会替换现有安装，先备份）
 mv ~/.agents/skills/kami ~/.agents/skills/kami.bak
-git clone git@github.com:FeihuXue-dev/Kami-persional.git ~/.agents/skills/kami
+git clone git@github.com:FeihuXue-dev/Kami-personal.git ~/.agents/skills/kami
 
 # 方式二：skills CLI
-npx skills add FeihuXue-dev/Kami-persional -a universal -g -y
+npx skills add FeihuXue-dev/Kami-personal -a universal -g -y
 ```
 
 ## 依赖

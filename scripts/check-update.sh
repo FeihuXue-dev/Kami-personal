@@ -8,7 +8,7 @@
 set -u
 
 SKILL="kami"
-REPO="FeihuXue-dev/Kami-persional"
+REPO="FeihuXue-dev/Kami-personal"
 DEFAULT_UPDATE_CMD="git -C ~/.agents/skills/kami pull --ff-only"
 # KAMI_UPDATE_URL overrides the source with a plain version file (used by tests).
 LATEST_RELEASE_URL="https://github.com/${REPO}/releases/latest"
